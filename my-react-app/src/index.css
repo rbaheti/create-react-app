@@ -19,13 +19,13 @@ body {
 .navbar a {
   	margin: 10px;
   	text-decoration: none;
+	color: white;
 }
 
 .img-container {
 	padding-bottom: 20px;
 	border: 2px solid #e8ebef;
 	display: inline-block;
-
 }
 
 img{
@@ -35,9 +35,9 @@ img{
 }
 
 .img-caption {
-	display: flex;
 	justify-content: center;
 	padding: 10px;
+	text-align: left;
 }
 
 .img-header {
