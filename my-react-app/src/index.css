@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  text-align: center;
 }
 
 .navbar {
@@ -12,6 +13,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin-bottom: 40px;
 }
 
 .navbar a {
@@ -20,23 +22,25 @@ body {
 }
 
 .img-container {
-	display: flex;
-	background-color: lightgrey;
-    width: 300px;
-    border: 25px solid green;
-    padding: 25px;
-    margin: 25px;	
-    align-items: center;
+	padding-bottom: 20px;
+	border: 2px solid #e8ebef;
+	display: inline-block;
+
 }
 
 img{
 	display:flex;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
 
 .img-caption {
 	display: flex;
-	align-items: center;
 	justify-content: center;
+	padding: 10px;
+}
+
+.img-header {
+	padding: 20px;
+	text-align: left;
 }
